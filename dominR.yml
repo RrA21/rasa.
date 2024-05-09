@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+ - graduate_plan
+ - undergraduate_plan
+ - Contact_info
+ - AUM_twitter
+ - AUM_instgram
+ - AUM_facebook
+ - AUM_youtube
+ - Library_Support
+ - help
+
+
+responses:
+
+  utter_graduate_plan:
+  - text: "https://aum.edu.kw/english/academics/graduate-programs"
+
+  utter_undergraduate_plan:
+  - text: "https://aum.edu.kw/english/academics/undergraduate-programs"
+
+  utter_Contact_info:
+  - text: "Admissions email: admissions@aum.edu.kw ,Phone: (+965) 2225 1400 ,https://aum.edu.kw/english/contact-us"
+  
+  utter_AUM_twitter:
+  - text: "https://twitter.com/official_AUM"
+
+  utter_AUM_instgram:
+  - text: "https://www.instagram.com/aum_official/"
+
+  utter_AUM_facebook:
+  - text: "https://www.facebook.com/officialAUM/"
+
+  utter_AUM_youtube:
+  - text: "https://www.youtube.com/officialaum"
+
+  utter_Library_Support:
+  - text: "Library.Support@aum.edu.kw"
+
+  utter_help:
+  - text: " you can use this number to contact with Student Affairs number:22260100"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
